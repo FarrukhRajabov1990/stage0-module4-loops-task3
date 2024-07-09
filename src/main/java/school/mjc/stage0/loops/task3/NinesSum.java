@@ -8,7 +8,7 @@ public class NinesSum {
         for (int i = 1; i <= lengthOfLastNumber; i++) {
             sum += temp;
             multiplier *= 10;
-            temp = temp + temp * multiplier;
+            temp = temp + 9 * multiplier;
         }
         System.out.println(sum);
     }

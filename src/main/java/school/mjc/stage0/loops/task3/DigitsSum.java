@@ -5,7 +5,7 @@ public class DigitsSum {
         String toWord = ("" + t);
         int sum = 0;
         for (int i = 0; i < toWord.length(); i++) {
-            sum += (int) toWord.charAt(i);
+            sum += toWord.charAt(i);
         }
         System.out.println(sum);
     }
