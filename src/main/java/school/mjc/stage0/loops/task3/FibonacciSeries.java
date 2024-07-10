@@ -9,6 +9,7 @@ public class FibonacciSeries {
                 System.out.println(fibonacci);
                 fibonacci++;
                 System.out.println(fibonacci);
+                System.out.println(fibonacci);
             }
             previous = fibonacci;
             fibonacci = fibonacci + previous;
