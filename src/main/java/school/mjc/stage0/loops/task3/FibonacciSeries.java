@@ -3,7 +3,6 @@ package school.mjc.stage0.loops.task3;
 public class FibonacciSeries {
     public void printFibonacci(int lastFibonacci) {
         int fibonacci = 1;
-        int temp;
         int previous;
         for (int i = 0; i <= lastFibonacci; i++ ){
             if (i == 0) {
@@ -12,7 +11,9 @@ public class FibonacciSeries {
             }
             previous = fibonacci;
             fibonacci = fibonacci + previous;
-            System.out.println(fibonacci);
+            if (fibonacci <= lastFibonacci) {
+                System.out.println(fibonacci);
+            }
         }
     }
 }
