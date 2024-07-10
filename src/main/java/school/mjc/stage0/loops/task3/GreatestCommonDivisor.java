@@ -16,6 +16,8 @@ public class GreatestCommonDivisor {
                 }
             }
         }
+        if (first == 0) divisor = second;
+        if (second == 0) divisor = first;
         System.out.println(divisor);
     }
 }
